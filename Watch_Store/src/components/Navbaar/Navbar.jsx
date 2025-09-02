@@ -16,10 +16,13 @@ const Navbar = () => {
         </div>
 
         <ul className='nav-menu'>
-            <li onClick={() =>{setMenu("home")}}> <Link to="/">Home</Link>{menu==="home" ? <hr />:<></>}</li>
-            <li onClick={() =>{setMenu("mens")}}> <Link to="/mens">Men</Link> {menu==="mens" ? <hr />:<></>}</li>
-            <li onClick={() =>{setMenu("womens")}}><Link to="/women"> Women </Link>{menu==="womens" ? <hr />:<></>}</li>
-            <li onClick={() =>{setMenu("kids")}}> <Link to="/kids">Kids</Link> {menu==="kids" ? <hr />:<></>}</li>
+            <li onClick={() =>{setMenu("home")}}> <Link style={{textDecoration:'none', color:'#626262'}} to="/">Home</Link>{menu==="home" ? <hr />:<></>}</li>
+
+            <li onClick={() =>{setMenu("mens")}}> <Link style={{textDecoration:'none', color:'#626262'}} to="/mens">Men</Link> {menu==="mens" ? <hr />:<></>}</li>
+
+            <li onClick={() =>{setMenu("womens")}}><Link style={{textDecoration:'none', color:'#626262'}} to="/women"> Women </Link>{menu==="womens" ? <hr />:<></>}</li>
+
+            <li onClick={() =>{setMenu("kids")}}> <Link style={{textDecoration:'none', color:'#626262'}} to="/kids">Kids</Link> {menu==="kids" ? <hr />:<></>}</li>
         </ul>
 
         <div className="nav-login-cart">
