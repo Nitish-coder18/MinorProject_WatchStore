@@ -6,6 +6,7 @@ import Product from "./Pages/Product"
 import Cart from "./Pages/Cart"
 import LoginSignup from "./Pages/LoginSignup"
 import Hero from "./components/Hero/Hero"
+import { Item } from "./components/Items/Item"
 
 function App() {
   
@@ -16,6 +17,7 @@ function App() {
         <BrowserRouter>
         <Navbar />
         <Hero />
+        <Item />
 
 
         <Routes>
