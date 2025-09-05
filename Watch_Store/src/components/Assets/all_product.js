@@ -11,12 +11,12 @@ import w_kids10 from "./w_kids10.jpeg";
 import w_kids11 from "./w_kids11.jpeg";
 import w_kids12 from "./w_kids12.jpeg";
 
-import w_men1 from "./w_men1.jpeg";
+import w_men1 from "./w_men1.jpg";
 import w_men2 from "./w_men2.jpeg";
 import w_men3 from "./w_men3.jpeg";
 import w_men4 from "./w_men4.jpeg";
 import w_men5 from "./w_men5.jpeg";
-import w_men6 from "./w_men6.jpeg";
+import w_men6 from "./w_men6.jpg";
 import w_men7 from "./w_men7.jpeg";
 import w_men8 from "./w_men8.jpeg";
 import w_men9 from "./w_men9.jpeg";
@@ -24,18 +24,18 @@ import w_men10 from "./w_men10.jpeg";
 import w_men11 from "./w_men11.jpeg";
 import w_men12 from "./w_men12.jpeg";
 
-import w_women1 from "./w_women1.jpeg";
-import w_women2 from "./w_women2.jpeg";
-import w_women3 from "./w_women3.jpeg";
-import w_women4 from "./w_women4.jpeg";
-import w_women5 from "./w_women5.jpeg";
-import w_women6 from "./w_women6.jpeg";
-import w_women7 from "./w_women7.jpeg";
-import w_women8 from "./w_women8.jpeg";
-import w_women9 from "./w_women9.jpeg";
-import w_women10 from "./w_women10.jpeg";
-import w_women11 from "./w_women11.jpeg";
-import w_women12 from "./w_women12.jpeg";
+import w_women1 from "./w_women1.png";
+import w_women2 from "./w_women2.png";
+import w_women3 from "./w_women3.png";
+import w_women4 from "./w_women4.png";
+import w_women5 from "./w_women5.png";
+import w_women6 from "./w_women6.png";
+import w_women7 from "./w_women7.png";
+import w_women8 from "./w_women8.png";
+import w_women9 from "./w_women9.png";
+import w_women10 from "./w_women10.png";
+import w_women11 from "./w_women11.png";
+import w_women12 from "./w_women12.png";
 
 
 
