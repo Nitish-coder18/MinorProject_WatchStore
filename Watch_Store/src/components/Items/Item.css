@@ -11,6 +11,7 @@
 .item-prices {
   display: flex;
   gap: 20px;
+  justify-content: center;
 }
 .item-price-new {
   color: #374151;

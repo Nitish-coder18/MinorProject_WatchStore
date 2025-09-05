@@ -28,9 +28,6 @@ const Navbar = () => {
 
       <div className="nav-login-cart">
 
-        <button>Login</button>
-        <img src={Cart_icon} alt="" height={'40px'} />
-
         <Link to='/login'><button>Login</button></Link>
 
         <Link to='/cart'> <img src={Cart_icon} alt="" height={'45px'} /> </Link>
