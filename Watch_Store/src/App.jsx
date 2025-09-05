@@ -2,14 +2,15 @@ import Navbar from "./components/Navbar/Navbar"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Shop from "./Pages/Shop"
 import ShopCategory from "./Pages/ShopCategory"
-import Product from "./Pages/Product"
-import Cart from "./Pages/Cart"
-import LoginSignup from "./Pages/LoginSignup"
+import Product from "./pages/Product"
+import Cart from "./pages/Cart"
+import LoginSignup from "./pages/LoginSignup"
 
 function App() {
-  return (
+  return(
     <BrowserRouter>
       <Navbar />
+
 
       <Routes>
         <Route path="/" element={<Shop />} />
