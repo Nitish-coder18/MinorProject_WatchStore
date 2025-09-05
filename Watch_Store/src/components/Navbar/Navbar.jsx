@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       <div className="nav-logo">
-        <img src={logo} alt="" height={'80px'} />
+        <img src={logo} alt="" height={'65px'} />
         <p>SHOPPER</p>
       </div>
 
@@ -27,6 +27,10 @@ const Navbar = () => {
       </ul>
 
       <div className="nav-login-cart">
+
+        <button>Login</button>
+        <img src={Cart_icon} alt="" height={'40px'} />
+
         <Link to='/login'><button>Login</button></Link>
 
         <Link to='/cart'> <img src={Cart_icon} alt="" height={'45px'} /> </Link>

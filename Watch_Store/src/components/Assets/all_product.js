@@ -330,42 +330,43 @@ let all_product = [
     },
 
 
-]
+];
+export default all_product;
 
 
 
 /* isko baad me edit krenge 
 
-import watch1 from "./watch1.png";
-import watch2 from "./watch2.png";
-import watch3 from "./watch3.png";
-import watch4 from "./watch4.png";
-import watch5 from "./watch5.png";
-import watch6 from "./watch6.png";
-import watch7 from "./watch7.png";
-import watch8 from "./watch8.png";
-import watch9 from "./watch9.png";
-import watch10 from "./watch10.png";
-import watch11 from "./watch11.png";
-import watch12 from "./watch12.png";
-import watch13 from "./watch13.png";
-import watch14 from "./watch14.png";
-import watch15 from "./watch15.png";
-import watch16 from "./watch16.png";
-import watch17 from "./watch17.png";
-import watch18 from "./watch18.png";
-import watch19 from "./watch19.png";
-import watch20 from "./watch20.png";
-import watch21 from "./watch21.png";
-import watch22 from "./watch22.png";
-import watch23 from "./watch23.png";
-import watch24 from "./watch24.png";
-import watch25 from "./watch25.png";
-import watch26 from "./watch26.png";
-import watch27 from "./watch27.png";
-import watch28 from "./watch28.png";
-import watch29 from "./watch29.png";
-import watch30 from "./watch30.png";
+import watch1 from "./watch1.jpeg";
+import watch2 from "./watch2.jpeg";
+import watch3 from "./watch3.jpeg";
+import watch4 from "./watch4.jpeg";
+import watch5 from "./watch5.jpeg";
+import watch6 from "./watch6.jpeg";
+import watch7 from "./watch7.jpeg";
+import watch8 from "./watch8.jpeg";
+import watch9 from "./watch9.jpeg";
+import watch10 from "./watch10.jpeg";
+import watch11 from "./watch11.jpeg";
+import watch12 from "./watch12.jpeg";
+import watch13 from "./watch13.jpeg";
+import watch14 from "./watch14.jpeg";
+import watch15 from "./watch15.jpeg";
+import watch16 from "./watch16.jpeg";
+import watch17 from "./watch17.jpeg";
+import watch18 from "./watch18.jpeg";
+import watch19 from "./watch19.jpeg";
+import watch20 from "./watch20.jpeg";
+import watch21 from "./watch21.jpeg";
+import watch22 from "./watch22.jpeg";
+import watch23 from "./watch23.jpeg";
+import watch24 from "./watch24.jpeg";
+import watch25 from "./watch25.jpeg";
+import watch26 from "./watch26.jpeg";
+import watch27 from "./watch27.jpeg";
+import watch28 from "./watch28.jpeg";
+import watch29 from "./watch29.jpeg";
+import watch30 from "./watch30.jpeg";
 
 const all_watches = [
   { id: 1, name: "Rolex Submariner", brand: "Rolex", category: "man", price: 8500, image: watch1 },
