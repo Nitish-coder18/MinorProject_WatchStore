@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       <div className="nav-logo">
-        <img src={logo} alt="" height={'80px'} />
+        <img src={logo} alt="" height={'65px'} />
         <p>SHOPPER</p>
       </div>
 
@@ -27,7 +27,7 @@ const Navbar = () => {
 
       <div className="nav-login-cart">
         <button>Login</button>
-        <img src={Cart_icon} alt="" height={'45px'} />
+        <img src={Cart_icon} alt="" height={'40px'} />
         <div className="nav-cart-count">0</div>
       </div>
 
