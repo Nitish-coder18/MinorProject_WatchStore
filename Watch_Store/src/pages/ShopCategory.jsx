@@ -36,7 +36,8 @@ else{
   })
 }
       </div>
-
+      <div className='shopcategory-exploremore'>Explore More</div>
+   
     </div>
   )
 }
