@@ -43,7 +43,7 @@ let all_product = [
     {
         id: 1,
         name: "lorem gipsum ke 8 sabd likh rhaa hooon phir edit krna baad me ",
-        category: "kids",
+        category: "kid",
         image: w_kids1,
         new_price: 50.0,
         old_price: 80.5,
@@ -51,7 +51,7 @@ let all_product = [
     {
         id: 2,
         name: "lorem gipsum ke 8 sabd likh rhaa hooon phir edit krna baad me ",
-        category: "kids",
+        category: "kid",
         image: w_kids2,
         new_price: 50.0,
         old_price: 80.5,
