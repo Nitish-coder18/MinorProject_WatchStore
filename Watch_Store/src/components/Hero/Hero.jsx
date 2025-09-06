@@ -25,7 +25,7 @@ const Hero = () => {
         </div>
         <div className="hero-latest-btn">
           <div>Latest Collection</div>
-          <img src={Arrow_icon} alt="" width="35px" height="35px" color='white' />
+          <img  className="arrow-icon" src={Arrow_icon} alt="" width="35px" height="35px" color='white' />
         </div>
       </div>
 
