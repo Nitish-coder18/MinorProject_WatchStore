@@ -39,6 +39,7 @@
   display: flex;
   margin: 100px 0px;
 }
+
 .total {
   flex: 1;
   display: flex;
@@ -46,6 +47,7 @@
   margin-right: 200px;
   gap: 40px;
 }
+
 .total-item {
   display: flex;
   justify-content: space-between;
@@ -82,7 +84,7 @@
   outline: none;
   background: transparent;
   font-size: 16px;
-  width: 330px;
+  width: 314px;
   height: 50px;
 }
 .promobox button {
