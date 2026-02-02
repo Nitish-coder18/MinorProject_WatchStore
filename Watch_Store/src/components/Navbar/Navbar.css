@@ -3,6 +3,7 @@
     justify-content: space-around;
     padding: 15px;
     box-shadow: 0 1px 3px -2px black;
+    align-items: center;
 }
 
 .nav-logo {
@@ -141,9 +142,11 @@
     .navbar{
         padding: 10px 0px;
     }
+    
     .nav-dropdown{
         display: block;
-        width: 30px;
+        height: 35px;
+        width: 29px;
         rotate: -90deg;
         transition: 0.5s;
     }
@@ -155,5 +158,27 @@
         background-color: white;
         justify-content: center;
         top: 85px;
+    }
+    .nav-menu-visible {
+        display: flex;
+    }
+    .nav-dropdown.open {
+        transform: rotate(90deg);
+    }
+}
+@media(max-width:500px){
+    .navbar {
+        padding: 8px 0px;
+        gap: 0;
+    }
+    .nav-logo{
+        transform: scale(0.7);
+    }
+    .nav-menu{
+        height: 70px;
+        top: 65px;
+    }
+    .nav-login-cart{
+     transform: scale(0.8);   
     }
 }

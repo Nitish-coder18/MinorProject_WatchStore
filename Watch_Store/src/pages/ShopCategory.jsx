@@ -13,7 +13,7 @@ const ShopCategory = (props) => {
           <span>Showing 1-12 </span> out of 36 products
         </p>
         <div className='shopcategory-sort'>
-           Sort by <img src={dropdown_icon}/>
+           Sort by <img className='shopcategory-sort-img' src={dropdown_icon}/>
         </div>
       
       </div>

@@ -1,3 +1,5 @@
+
+
 .shopcategory-banner
   {
   display: block;
@@ -11,9 +13,17 @@
   align-items: center;
 }
 .shopcategory-sort{
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
   padding: 10px 20px;
   border-radius: 40px;
   border:1px solid #888;
+}
+.shopcategory-sort-img{
+  justify-content: center;
+  height: 20px;
 }
 .shopcategory-indexsort p span{
 font-weight: 600;
